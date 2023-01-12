@@ -1,0 +1,9 @@
+﻿Test name,dataNewDevice,deviceBrand,verifyDevicesTab
+onboardDevice,"map[host:10.132.15.1,user name:admin,password:algosec,managedBy:RenaultRA,collect Logs:None]",Juniper_Netscreen,TRUE
+onboardDevice,"map[host:10-219-25-179,user name:10-219-25-179,password:algosec,enable user password:algosec,managedBy:RenaultRA,log collection:Hit-counters]",CiscoPIX_ASA_FWSM,TRUE
+Test name,deviceName,,
+verifyDeviceWasAdded,10.132.15.1_10.132.15.1_root,,
+verifyDeviceWasAdded,10-219-25-179_admin,,
+Test name,deviceName,,
+analyzeAndVerifyCompleteness,10.132.15.1,,
+analyzeAndVerifyCompleteness,10-219-25-179,,
